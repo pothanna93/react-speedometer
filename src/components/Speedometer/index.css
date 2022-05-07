@@ -1,0 +1,72 @@
+/* Write your CSS here */
+
+.speedometer-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  height: 100vh;
+}
+.speed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 500;
+}
+@media screen and(min-width:768px) {
+  .heading {
+    font-size: 48px;
+  }
+}
+.image {
+  width: 300px;
+  height: 125px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 700px;
+    height: 350px;
+  }
+}
+.speed-limit {
+  color: #fff;
+}
+.about-speed {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-bottom: 48px;
+}
+.button {
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin-left: 12px;
+  margin-right: 12px;
+  outline: none;
+  cursor: pointer;
+}
+.acc-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+}
+.brake-button {
+  color: #94a3b8;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: 2px solid #94a3b8;
+}
